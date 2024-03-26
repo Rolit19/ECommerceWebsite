@@ -25,7 +25,7 @@ class LandingPage extends Component {
     return (
         <div onClick={() => this.scrollToTop()}>
             <Header/>
-            <video playsinline="playsinline" autoplay="true" loop="loop" src={IntroVedio} type="video/mp4" className='LandingIntroImage'/>
+            <video playsinline="playsinline" autoplay="true" loop="true" muted="true" src={IntroVedio} type="video/mp4" className='LandingIntroVedio'/>
             <hr style={{
                 color: "#e9e9e9",
                 background: "#e9e9e9",
