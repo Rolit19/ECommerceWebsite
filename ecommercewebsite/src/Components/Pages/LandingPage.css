@@ -10,6 +10,16 @@
     padding: 2%;
 }
 
+.LandingIntroImage{
+    width: 100%;
+    height: 50%;
+    opacity: 80%;
+}
+
+.SharkTankImage{
+    width: 100%;
+}
+
 .Landing-content {
     width: 90%;
     height: auto;

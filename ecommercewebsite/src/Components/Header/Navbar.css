@@ -162,6 +162,7 @@ a {
     .Header_Container {
         height: 90px;
         width: 90%;
+        color: white;
     }
 
     .Header_LinksContainer {
@@ -170,6 +171,11 @@ a {
 }
 
 @media (max-width: 942px) {
+    .Header{
+        position: relative;
+        color: white;
+    }
+
     .Header_LinksContainer {
         display: none;
     }
