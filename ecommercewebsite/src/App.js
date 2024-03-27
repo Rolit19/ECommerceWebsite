@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import LandingPage from './Components/Pages/LandingPage';
+import SaleMarqueeComponent from './Components/Carousel/SaleMarquee';
 
 function App() {
   return (

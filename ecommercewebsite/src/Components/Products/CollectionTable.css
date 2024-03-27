@@ -1,0 +1,21 @@
+.collection-table{
+    border-spacing: 0px;
+}
+.collection-vedio{
+    width: 60% !important;
+}
+
+.collection-text{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #939393;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.collectiontable-cell{
+    width: 25%;
+    height: auto;
+    padding: 15px;
+    border: 1px solid #E8E8E8;
+}

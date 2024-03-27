@@ -76,9 +76,9 @@ const CardCarousel = () => {
         </div>
       </OwlCarousel>
       <hr style={{
-                color: "#e9e9e9",
-                background: "#e9e9e9",
-                backgroundColor: "#e9e9e9",
+                color: "#E8E8E8",
+                background: "#E8E8E8",
+                backgroundColor: "#E8E8E8",
                 height: '1px',}} />
     </div>
   );

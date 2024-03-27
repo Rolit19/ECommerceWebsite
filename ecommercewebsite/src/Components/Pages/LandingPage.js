@@ -7,6 +7,8 @@ import SharkTankImg from "../Assets/Images/SharkTank.png"
 import Header from '../Header/Navbar';
 import CardCarousel from '../Carousel/CardCarousel';
 import MarqueeComponent from '../Carousel/Marquee';
+import CollectionTable from '../Products/CollectionTable';
+import SaleMarqueeComponent from '../Carousel/SaleMarquee';
 
 class LandingPage extends Component {
     constructor(props) {
@@ -24,6 +26,7 @@ class LandingPage extends Component {
     render(){
     return (
         <div onClick={() => this.scrollToTop()}>
+            <SaleMarqueeComponent className="SaleMarquee"/>
             <Header/>
             <video playsinline="playsinline" autoplay="true" loop="true" muted="true" src={IntroVedio} type="video/mp4" className='LandingIntroVedio'/>
             <hr style={{
@@ -35,6 +38,8 @@ class LandingPage extends Component {
             <CardCarousel/>
             <MarqueeComponent/>
             <p class="Carousal-heading">Our Collection</p>
+            <CollectionTable/>
+            <p class="Carousal-heading">Most loved product of the month</p>
         </div>
     )
     }
