@@ -9,6 +9,7 @@ import CardCarousel from '../Carousel/CardCarousel';
 import MarqueeComponent from '../Carousel/Marquee';
 import CollectionTable from '../Products/CollectionTable';
 import SaleMarqueeComponent from '../Carousel/SaleMarquee';
+import HighlightProduct from '../Products/HighlightProduct';
 
 class LandingPage extends Component {
     constructor(props) {
@@ -40,6 +41,7 @@ class LandingPage extends Component {
             <p class="Carousal-heading">Our Collection</p>
             <CollectionTable/>
             <p class="Carousal-heading">Most loved product of the month</p>
+            <HighlightProduct/>
         </div>
     )
     }
